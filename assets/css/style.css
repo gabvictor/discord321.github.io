@@ -30,6 +30,7 @@ html {
   width: 100%;
   margin: 0;
   padding: 10%;
+  justify-content: center;
 }
 
 .tooltip {
@@ -106,7 +107,7 @@ html {
 .card-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   width: 1450px;
 }
 
