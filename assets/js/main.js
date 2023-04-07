@@ -19,8 +19,6 @@ profilLogo.forEach((logo) => {
   logo.addEventListener("click", toggleModal);
 });
 
-
-
 modal.addEventListener("click", (e) => {
   if (e.target === modal) {
     toggleModal();
